@@ -1,0 +1,25 @@
+{
+  "name": "obsidian-dashboard",
+  "version": "1.0.0",
+  "description": "Turn your Obsidian home into a customizable dashboard for capturing tasks, tracking projects, and reviewing your note activity.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test \"src/data/*.test.ts\""
+  },
+  "keywords": [
+    "obsidian",
+    "dashboard",
+    "plugin"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "^1.7.2",
+    "typescript": "^5.6.0"
+  }
+}

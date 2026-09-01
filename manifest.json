@@ -1,0 +1,9 @@
+{
+	"id": "dashboard-private",
+	"name": "MiniDashboard",
+	"version": "1.0.0",
+	"minAppVersion": "1.8.0",
+	"description": "A minimal personal dashboard for Obsidian: to-do, weather, calendar, bookmarks, favorites and quick capture in one page. All data stays in local Markdown, with a bilingual UI and light/dark themes.",
+	"author": "qxd",
+	"isDesktopOnly": false
+}
